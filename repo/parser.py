@@ -7,5 +7,5 @@ class RepoParser():
         for i in range(len(response)):
             result = response[i]
             #Instancia do módulo repo
-            repo = Repo(result["id"], repo["name"], repo["stargazers_count"])
+            repo = Repo(result["id"], result["name"], result["stargazers_count"])
             print (repo)

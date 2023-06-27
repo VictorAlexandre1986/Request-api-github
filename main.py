@@ -2,7 +2,7 @@ from cliente.client import GithubClient
 from repo.parser import RepoParser
 
 if __name__=='__main__':
-    username="VictorAlexandre"
+    username="VictorAlexandre1986"
     response = GithubClient.get_repository_by_user(username)
     
     if response['status_code'] == 200:
