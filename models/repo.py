@@ -14,8 +14,9 @@ class Repo():
     def name(self):
         return self._name
     
+    @property
     def stars(self):
         return self._stars
     
     def __str__(self) -> str:
-        return f'Id: {self.id} Name: {self.name} Stars{self.stars}'
+        return f'Id: {self.id} Name: {self.name} Stars: {self.stars}'
